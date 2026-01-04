@@ -1,0 +1,13 @@
+{
+	"name": "LS_Http_GitHub",
+	"properties": {
+		"description": "Linked service for GitHub",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/alphaA123/azure-powerBI_pipeline/blob/main/Superstore.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
